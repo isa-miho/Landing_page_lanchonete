@@ -5,16 +5,17 @@
     justify-content: center;
     min-height: 100vh;
 }
-.area-card{
+.area-cards{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 24px;
+    gap: 30px;
     margin-top: 32px;
+    /* background-color: aqua; */
 }
 .card{
-    width: 35%;
+    width:30%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -41,4 +42,23 @@
     right: -10px ;
     top: -10px;
     border-radius: 0px 37.5px 0px 42.5px;
+}
+.card-heart:hover{
+    color: rgb(255, 39, 39);
+    cursor: pointer;
+}
+.card-title{
+    font-size: 1.4rem;
+}
+.card-descricao{
+    font-size: 1rem;
+    text-align: justify;
+}
+.card-rate i{
+    color: var(--color-primary-6);
+}
+.card-price{
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
