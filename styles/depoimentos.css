@@ -48,3 +48,11 @@
 .feedback-content p span{
     color: var(--color-primary-4);
 }
+
+@media screen and (max-width:1170px) {
+    #depoimento{
+        flex-direction: column;
+
+    }
+    
+}
